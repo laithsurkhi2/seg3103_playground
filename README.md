@@ -15,8 +15,14 @@ In the newmath_java: There is a division function that asks for numerator and de
 
 
 In the newmath_ex: It also contains a division function but in elixir which also asks for the numerator and denominator with the output. There is also exunit testing that shows, doctest, tests and failures. 
+<img width="742" alt="bin:run elixir " src="https://github.com/laithsurkhi2/seg3013_playground/assets/144931470/31ed9bb6-83c0-4540-a688-1e423948b343">
+<img width="552" alt=":bin:test elixir" src="https://github.com/laithsurkhi2/seg3013_playground/assets/144931470/09d34a4e-f802-4e38-96c6-bb9730eec4da">
 
 In the newmath_ py: It also contains a division function which gives us a place ot input numerator and denominator. There is also py unit testing that shows us how many tests were ran.
+
+<img width="626" alt="bin:run py" src="https://github.com/laithsurkhi2/seg3013_playground/assets/144931470/252ff1cf-6eec-4ccc-91da-6e9b2bbedf2f">
+<img width="614" alt="bin:test py" src="https://github.com/laithsurkhi2/seg3013_playground/assets/144931470/1c678812-9db3-4ee8-831a-150516dcb873">
+
 
 ## Motivation
 
