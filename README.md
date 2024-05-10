@@ -10,6 +10,9 @@ This is lab 1 for SEG 3103 done by Laith Al-Surkhi. In this lab we will help me 
 In the assets folder there is all the screenshots of the codes. 
 
 In the newmath_java: There is a division function that asks for numerator and denominator to do the division. It also includes Junit testing.
+<img width="1151" alt="bin:run java" src="https://github.com/laithsurkhi2/seg3013_playground/assets/144931470/270fc2ba-5916-41e9-a077-4e5e50602e81">
+<img width="723" alt="bin:test java" src="https://github.com/laithsurkhi2/seg3013_playground/assets/144931470/eadb076f-5b52-4292-a9ac-b4081b808822">
+
 
 In the newmath_ex: It also contains a division function but in elixir which also asks for the numerator and denominator with the output. There is also exunit testing that shows, doctest, tests and failures. 
 
