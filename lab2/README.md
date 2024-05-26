@@ -20,8 +20,8 @@
 In order to complete the first exercise I had to run this : java --add-opens java.base/java.lang=ALL-UNNAMED -jar  user-registration-app-0.1.0.jar to get to http://localhost:8080/ which allowed me to see the User registration and run various tests.
 
 ## Test and Output 1
-<img width="1081" alt="output1" src="https://github.com/laithsurkhi2/seg3103_playground/assets/144931470/82e3f521-3285-459d-8f5e-02b6c7dd0b81">
-<img width="1396" alt="output2" src="https://github.com/laithsurkhi2/seg3103_playground/assets/144931470/4c862ded-990e-4893-9780-895fdbc0a61d">
+<img width="1081" alt="output1" src="https://github.com/laithsurkhi2/seg3103_playground/assets/144931470/20629837-83cd-499b-ac14-23b424f1c392">
+<img width="1180" alt="test1" src="https://github.com/laithsurkhi2/seg3103_playground/assets/144931470/28515cbc-1983-4e36-9119-d84687233bde">
 
 ## Test and Output 2
 <img width="1337" alt="output3" src="https://github.com/laithsurkhi2/seg3103_playground/assets/144931470/380ddc5f-e7fe-4fba-a256-7e89343b3464">
