@@ -8,9 +8,9 @@
 | Test Case | Expected Results             | Actual Results              | Verdict |
 |-----------|------------------------------|-----------------------------|---------|
 | 1         | Succesful                    |          Succesful            | Pass    |
-| 2         | registration request accepted | registration request accepted | Pass    |
-| 3         | registration request accepted | registration request accepted | Pass    |
-| 4         | registration request accepted | registration request accepted | Pass    |
+| 2         | Succesful               | Succesful | Pass    |
+| 3         | Succesfull | Succesful | Pass    |
+| 4         | Succesful | Succesfull | Pass    |
 | 5         | Err1 Err 11                   | Err1 & Err11                 | Pass    |
 | 6         | Err9                         | Err9                         | Pass    |
 | 7         | Err3 Err 1                   | Err3 & Err11                 | Pass    |
