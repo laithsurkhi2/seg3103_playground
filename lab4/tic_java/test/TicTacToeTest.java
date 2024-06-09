@@ -13,4 +13,14 @@ public class TicTacToeTest {
         };
         assertArrayEquals(expectedBoard, game.getBoard());
     }
+
+    @Test
+    void detectHorizontalWin() {
+        TicTacToe game = new TicTacToe();
+        game.makeMove(0, 0, "X");
+        game.makeMove(1, 0, "X");
+        game.makeMove(2, 0, "X");
+        assertTrue(game.isWin());
+    }
+
 }
