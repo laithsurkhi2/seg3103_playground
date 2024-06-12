@@ -23,6 +23,7 @@ Second failing test was the vertical:
 <img width="417" alt="failingvertical" src="https://github.com/laithsurkhi2/seg3103_playground/assets/144931470/77b36a23-15ec-4f73-a942-dd2e0644feff">
 
 Third failing test was the horizontal
+
 <img width="457" alt="failingtesthorizontal" src="https://github.com/laithsurkhi2/seg3103_playground/assets/144931470/14b8fc50-21d0-4269-b97f-655da017c1f8">
 
 Fourth failing test was the diagonal (20
