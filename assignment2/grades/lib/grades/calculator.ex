@@ -1,5 +1,8 @@
 defmodule Grades.Calculator do
   def percentage_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
+
+    #Q2.1:
+
     avg_homework = avg(homework)
     avg_labs = avg(labs)
 
@@ -8,6 +11,8 @@ defmodule Grades.Calculator do
   end
 
   def letter_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
+
+    #Q2.1:
     avg_homework = avg(homework)
     avg_labs = avg(labs)
 
@@ -71,4 +76,4 @@ defmodule Grades.Calculator do
       Enum.sum(marks) / Enum.count(marks)
     end
   end
-end
+End
