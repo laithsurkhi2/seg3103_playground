@@ -1,9 +1,10 @@
 defmodule Grades.Calculator do
   def percentage_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
+    # Question 2.1
     avg_homework = avg(homework)
     avg_labs = avg(labs)
 
-    mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
+    mark = calculate_grade(avg_labs, avg_homework, midterm, final)
     round(mark * 100)
   end
 
@@ -12,10 +13,11 @@ defmodule Grades.Calculator do
     avg_labs = avg(labs)
     avg_exams = (midterm + final) / 2
 
+    # Question 2.2
     if failed_to_participate?(avg_homework, avg_exams, labs) do
       "EIN"
     else
-      mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
+      mark = calculate_grade(avg_labs, avg_homework, midterm, final)
 
       cond do
         mark > 0.895 -> "A+"
@@ -38,10 +40,11 @@ defmodule Grades.Calculator do
     avg_labs = avg(labs)
     avg_exams = (midterm + final) / 2
 
+    # Question 2.2
     if failed_to_participate?(avg_homework, avg_exams, labs) do
       0
     else
-      mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
+      mark = calculate_grade(avg_labs, avg_homework, midterm, final)
 
       cond do
         mark > 0.895 -> 10
@@ -59,8 +62,8 @@ defmodule Grades.Calculator do
     end
   end
 
-  # Helper function to calculate average of a list of marks
-  defp avg(marks) do
+  # Question 2.1 Helper function to calculate average of a list of marks
+  def avg(marks) do
     if Enum.empty?(marks) do
       0
     else
@@ -68,10 +71,15 @@ defmodule Grades.Calculator do
     end
   end
 
-  # Helper function to determine if the student failed to participate adequately
-  defp failed_to_participate?(avg_homework, avg_exams, labs) do
+  # Question 2.2 Helper function to determine if the student failed to participate adequately
+  def failed_to_participate?(avg_homework, avg_exams, labs) do
     num_labs = Enum.count(Enum.reject(labs, &(&1 < 0.25)))
 
     avg_homework < 0.4 || avg_exams < 0.4 || num_labs < 3
+  end
+
+  # Question 2.3 Helper function to calculate the final grade mark
+  def calculate_grade(avg_labs, avg_homework, midterm, final) do
+    0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
   end
 end
